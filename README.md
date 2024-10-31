@@ -1,2 +1,4 @@
-# tds_project_1
-TDS Project 1
+1.  I scraped the data by generating a authentication key at GitHub and used Python's requests library to pull data from the API endpoints given by GitHub in their documentation. Then used Pandas to convert the json content in the responses to dataframes and saved it as CSV. Then imported those CSVs into Power BI Desktop to analyse the data.
+2. Most interesting fact is how easy it is to scrap the web data and perform various analysis on them without much effort. Surprising part is I could not understand why the "Check Answers" button is showing some answers are wrong though I am sure about the computation and accuracy of the answers I have entered. In terms of insights, I was surprised to see `Haml` is the language with highest number of stars per repository. 
+3. One actionable recommendation is that as a developer, if you have more repositories, you are more likely to get more followers. There is a positive correlation between the number of public repositories and the number of followers.
+4. I terms of analysing the data, my knowledge about Power BI, DAX, Python, Pandas, REST APIs, Python libraries gave me enough flexibility to choose the method best suited for each analysis. Sometimes, Power BI & DAX felt easier, for some, Python and Pandas got me to results quickly. 
